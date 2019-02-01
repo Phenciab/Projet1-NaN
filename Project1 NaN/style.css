@@ -1,0 +1,86 @@
+/*POLICES*/
+@font-face
+{
+	font-family: cac_champagne;
+	src: url( polices/cac_champagne-webfont.woff) format ("woff");
+}
+@font-face
+{
+	font-family: ballpark;
+	src: url( polices/ballpark.woff) format ("woff");
+}
+h2
+{
+	text-transform: uppercase;
+	color: green;
+}
+h3
+{
+	color: maroon;
+	text-shadow: 2px 3px 0 yellow;
+}
+#tour .container
+{
+	display: flex;
+	justify-content: center;
+	background-image: url(images/tonpki.jpg);
+}
+
+/*HEADER*/
+nav, header, section
+{
+	font-family: cursive;
+	font-size: 1em;
+	background-image: url(images/neige.png);
+}
+header
+{
+	margin-top: 50px;
+	height: 100%;
+}
+header h1
+{
+	font-family: "cac_champagne";
+	font-size: 2em;
+	font-style: oblique;
+	text-align: center;
+}
+header .great
+{
+	
+}
+#his
+{
+	background: url(images/img_touristique.jpg) no-repeat center;
+	color: rgb(7,7,7);
+}
+.checkbox
+{
+	margin-right: 10px;
+	padding: 20px;
+}
+#tour
+{
+	/*display: flex;
+	justify-content: space-around;*/
+}
+/* FOOTER*/
+footer ul li 
+{
+	list-style: none;
+	margin: 0 50px 2px 100px;
+	padding: -20px;
+	display: flex;
+	float: left;
+}
+h1
+{
+	text-align: center;
+	color: maroon;
+}
+footer
+{
+	background-color: gray;
+	font-family: cursive;
+	font-size: 1em;
+}
